@@ -1,0 +1,17 @@
+*{ box-sizing: border-box;}
+body{ margin: 0; padding: 0; font-size: 14px;}
+.clear{ clear: both;}
+section{ margin: 0 0 30px 0; width: 100%; float: left;}
+.container{ max-width: 1000px; margin: 0 auto;}
+.form-back{ width: 100%; height: auto; margin: 100px 0 0 0; padding: 30px; border: #ddd 1px solid; float: right;}
+.form-back .portion{ width: 100%; height: auto; margin: 0 0 30px 0; float: left;}
+.form-back .portion label { margin: 0 0 15px 0; font-size: 16px; float: left;}
+
+.form-back .portion input[type="text"]{ width: 100%; height: 40px; margin: 0; padding: 0 15px; border: #ddd 1px solid; border-radius: 5px; float: left; outline-style: none;}
+.form-back .portion input[type="email"]{ width: 100%; height: 40px; margin: 0; padding: 0 15px; border: #ddd 1px solid; border-radius: 5px; float: left; outline-style: none;}
+.form-back .portion input[type="date"]{ width: 100%; height: 40px; margin: 0; padding: 9px 15px 0 15px; border: #ddd 1px solid; border-radius: 5px; float: left; outline-style: none;}
+.form-back .portion input[type="email"]{ width: 100%; height: 40px; margin: 0; padding: 0 15px; border: #ddd 1px solid; border-radius: 5px; float: left; outline-style: none;}
+.form-back .portion select{ width: 100%; height: 40px; margin: 0; padding: 0 15px; border: #ddd 1px solid; border-radius: 5px; float: left; outline-style: none;}
+.form-back .portion textarea{ width: 100%; height: 150px; margin: 0; padding:15px; border: #ddd 1px solid; border-radius: 5px; float: left; outline-style: none; resize: none;}
+.form-back .portion input[type="file"]{ width: 100%; height: 40px; margin: 15px 0 0 0; padding: 8px 15px 0; border: #ddd 1px solid; border-radius: 5px; float: left; outline-style: none;}
+.form-back .portion select.form-back .portion input[type="email"]{ width: 100%; height: 40px; margin: 0; padding: 0 15px; border: #ddd 1px solid; border-radius: 5px; float: left; outline-style: none;}
