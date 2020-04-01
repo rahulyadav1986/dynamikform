@@ -8,11 +8,11 @@
 </head>
 <body>
     <button id="add-form">Add Form +</button>
-    <button class="get" onclick="getset();">Show Result</button>  
+    <button class="get" onclick="getset();">Show Result</button>
     <div class="container">
         <section id="selec">
             <div class="form-port">
-                <div class="form-back">                    
+                <div class="form-back">
                     <div class="portion">
                         <label for="name">Name</label>
                         <input type="text" id="name" class="namec">
@@ -93,32 +93,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
         $(document).ready(function(){
+            
+
             $('#add-form').click(function(){
-                $('#selec').append(
-                    
-                    '<div class="form-port"><div class="form-back"><div class="portion"><label for="name" >Name</label><input type="text" id="name" class="namec"></div><div class="portion"><label for="fname">Father s Name</label><input type="text" id="fname"></div><div class="portion"> <label for="dob">Date of Birth</label><input type="date" id="dob"></div> <div class="portion"><label for="address">Address</label><textarea name="address" id="address" ></textarea></div><div class="portion"><label for="mob">Mobile No</label><input type="text" id="mob"></div><div class="portion"><label for="email">Email ID</label><input type="email" id="email"></div><div class="portion"><label for="email">Email ID</label><input type="email" id="email"></div><div class="portion"><label for="qualification">Qualification</label><select name="qualification" id="qualification"><option value="Qualification 1">Qualification 1</option><option value="Qualification 1">Qualification 1</option><option value="Qualification 1">Qualification 1</option><option value="Qualification 1">Qualification 1</option></select></div><div class="portion"><label for="occupation">Occupation</label><select name="occupation" id="occupation"><option value="Occupation 1">Occupation 1</option><option value="Occupation 1">Occupation 1</option><option value="Occupation 1">Occupation 1</option><option value="Occupation 1">Occupation 1</option></select></div><div class="portion"><label for="pan">Pan No</label><input type="text" id="pan"><input type="file" id="panUpload"></div><div class="portion"><label for="pan">Address Proof</label><input type="file" id="panUpload"></div><div class="portion"><label for="pan">Passport Size Photo</label><input type="file" id="panUpload"></div></div><div class="resule"><div class="poertin"><table><tr><td>Name</td><td id="showname" class="shownamec"></td></tr></table></div></div></div>'
-                );
+                $('#selec').clone().appendTo('.container');
             });
-
-            
-
-            $('.get').click(function(){
-                var test = $('.namec').val();
-                $('.shownamec').html(test);
-            })
-
         });
-
-       
-
-            
-
-        /*function getresult(){
-            var nametest = document.get('namec').value;
-            document.getElementsByClassName('shownamec').innerHTML = nametest;
-
-        }*/
-
+        
+        function getset(){
+            var test = $('.namec').val();
+                $('.shownamec').html(test);
+        }
+        
     </script>
 </body>
 </html>

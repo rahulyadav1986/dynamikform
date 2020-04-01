@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <button id="add-form">Add Form +</button>
+    <button class="get">Show Result</button>  
+    <div class="container">
+        <section id="selec">
+            <div class="form-port">
+                <div class="form-back">                    
+                    <div class="portion">
+                        <label for="name">Name</label>
+                        <input type="text" id="name0" class="namec" data-no="0">
+                    </div>
+                    <div class="portion">
+                        <label for="fname">Father's Name</label>
+                        <input type="text" id="fname0" data-no="0">
+                    </div>
+                    <div class="portion">
+                        <label for="dob">Date of Birth</label>
+                        <input type="date" id="dob0" data-no="0">
+                    </div>
+                    <div class="portion">
+                        <label for="address">Address</label>
+                        <textarea name="address" id="address0" data-no="0"></textarea>
+                    </div>
+                    <div class="portion">
+                        <label for="mob">Mobile No</label>
+                        <input type="text" id="mob0" data-no="0">
+                    </div>
+                    <div class="portion">
+                        <label for="email">Email ID</label>
+                        <input type="email" id="email0" data-no="0">
+                    </div>
+                    <div class="portion">
+                        <label for="qualification">Qualification</label>
+                        <select name="qualification" id="qualification0" data-no="0">
+                            <option value="Qualification 1">Qualification 1</option>
+                            <option value="Qualification 1">Qualification 1</option>
+                            <option value="Qualification 1">Qualification 1</option>
+                            <option value="Qualification 1">Qualification 1</option>
+                        </select>
+                    </div>
+                    <div class="portion">
+                        <label for="occupation">Occupation</label>
+                        <select name="occupation" id="occupation0" data-no="0">
+                            <option value="Occupation 1">Occupation 1</option>
+                            <option value="Occupation 1">Occupation 1</option>
+                            <option value="Occupation 1">Occupation 1</option>
+                            <option value="Occupation 1">Occupation 1</option>
+                        </select>
+                    </div>
+                    <div class="portion">
+                        <label for="pan">Pan No</label>
+                        <input type="text" id="panno0" data-no="0">
+                        <input type="file" id="panUpload0" data-no="0">
+                    </div>
+                    <div class="portion">
+                        <label for="pan">Address Proof</label>
+                        <input type="file" id="panUpload0" data-no="0">
+                    </div>
+                    <div class="portion">
+                        <label for="pan">Passport Size Photo</label>
+                        <input type="file" id="panUpload0" data-no="0">
+                    </div>           
+                </div>
+                <div class="resule">
+                    <div class="poertin">
+                        <table>
+                            <tr>
+                                <td>Name</td>
+                                <td id="showname0" class="shownamec"></td>
+                            </tr>
+							<tr>
+                                <td>Father's Name</td>
+                                <td id="showfname0" class="showfname"></td>
+                            </tr>
+							<tr>
+                                <td>Date of Birth</td>
+                                <td id="showdob0" class="showdob"></td>
+                            </tr>
+							<tr>
+                                <td>Address</td>
+                                <td id="showaddress0" class="showaddress"></td>
+                            </tr>
+							<tr>
+                                <td>Mobile No</td>
+                                <td id="showmob0" class="showmob"></td>
+                            </tr>
+							<tr>
+                                <td>Email Address</td>
+                                <td id="showemail0" class="showemail"></td>
+                            </tr>
+							<tr>
+                                <td>Qualification</td>
+                                <td id="showqualification0" class="showqualification"></td>
+                            </tr>
+							<tr>
+                                <td>Occupation</td>
+                                <td id="showoccupation0" class="showoccupation"></td>
+                            </tr>
+							<tr>
+                                <td>PanNo</td>
+                                <td id="showpanno0" class="showpan"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                
+                
+                
+            </div>           
+        </section>
+        
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
